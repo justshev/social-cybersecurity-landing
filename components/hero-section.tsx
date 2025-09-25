@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function HeroSection() {
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8" id="overview">
@@ -21,7 +23,7 @@ export function HeroSection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors glow-effect">
-              Explore Framework
+              <a href="#model">Explore Framework</a>
               <svg
                 className="ml-2 w-5 h-5"
                 fill="none"
