@@ -55,6 +55,27 @@ export function ModelPages() {
   return (
     <section id="model" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-16">
+        {/* Model Illustration */}
+        <div className="relative group">
+          <div className="relative overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-muted/40 via-card to-muted/30 ring-1 ring-border/40">
+            <div className="relative aspect-[2/1] w-full">
+              <Image
+                src="/images/model.jpg"
+                alt="Model Cybersecurity Awareness"
+                fill
+                priority
+                sizes="100vw"
+                className="object-contain p-2 sm:p-4 saturate-[1.05] transition duration-500 group-hover:scale-[1.01]"
+              />
+            </div>
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/60 via-background/5 to-transparent" />
+          </div>
+          <p className="mt-3 text-center text-xs sm:text-sm text-muted-foreground">
+            Visual abstrak model implementasi: pemetaan domain risiko → kerangka
+            pengelolaan data & kontrol → siklus perbaikan berkelanjutan.
+          </p>
+        </div>
+
         {/* Header & Narrative */}
         <div className="text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
